@@ -1,0 +1,114 @@
+body,html {
+    height: 100%;
+    background-image: linear-gradient( 45deg, #228C5E, #137575);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#headline {
+    background-color: #FFFF80;
+    font-size: 2em;
+    font-weight: 700;
+    width: 650px;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    /*margin: 20px;*/
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#description {
+    background-color: #FFFF80;
+    width: 650px;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    /*margin: 20px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+#description1 {
+    background-color: #FFFF80;
+    width: 650px;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    /*margin: 20px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+#description2 {
+    background-color: #FFFF80;
+    width: 650px;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    /*margin: 20px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.inputBox {
+    font-size: 15px;
+    height: 3em;
+    width: 20em;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px black;
+}
+
+#inputFields {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nameInput {
+    margin-left: 15px;
+}
+
+#messageInput {
+    margin-left: 90px;
+}
+
+.btn-grid {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    background-color: #a9a9a9;
+    height: 3em;
+    border: 2px solid black;
+    box-shadow: 5px 5px 2px black;
+    /*margin-left: 565px;*/
+}
+
+.entry, .name {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#content{
+    background-color: #FFFF80;
+    font-size: 2em;
+    font-weight: 700;
+    width: 650px;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    /*margin: 20px;*/
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+

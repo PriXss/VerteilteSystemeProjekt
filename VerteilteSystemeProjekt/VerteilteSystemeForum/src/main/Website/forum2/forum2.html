@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Verteilte Systeme Website</title>
+        <link rel="stylesheet" href="../style.css">
+        <script defer src="forum2.js"></script>
+    </head>
+    <body>
+    <!--we designed 1 container in which the application is running on the site-->
+        <div class="container">
+            <div id="headline">Was machen Bienen den ganzen tag außer Honig produzieren</div>
+
+            <div id="description"></div><br>
+
+            <div id="inputFields" class="inputFields">
+                <input id= "NameInput" class="entry" placeholder="Enter your Name">
+                <input id= "AgeInput" class="entry" placeholder="Enter your Age">
+                <input id= "MessageInput" class="entry" placeholder="Enter your Message">
+                <input id= "EmailInput" class="entry" placeholder="Enter your Email">
+            </div>
+            <!--Example Buttons created on the site, buttons itself will be created/been worked over manually with the text of the answers-->
+            <div id="submit" class="btn-grid" onclick="postDataToAPI()">
+                <button class="btn">Commit to Forum</button><br><br>
+            </div>
+            <div id="submit" class="btn-grid" onclick="redirectToIndex()">
+                <button class="btn">Back to Homepage</button>
+            </div>
+        </div>
+    </body>
+</html>
